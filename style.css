@@ -35,7 +35,7 @@ section.alternate-background {
 main img {
   width: auto;
   height: 215px;
-  padding: 10px;
+  padding: 10px 0 0 0;
 }
 
 
@@ -71,6 +71,12 @@ header {
   font-family: "Tangerine", cursive;
   font-size: 72px;
   color: #ecdbc9;
+  text-align: center;
+}
+#menu {
+  display:flexbox;
+  text-align: center;
+  padding: auto;
 }
 
 header nav ul {
@@ -132,7 +138,7 @@ footer p {
 
 
 /* -------  Media Query ------- */
-@media all and (min-width: 480px) {
+@media all and (min-width: 481px) {
   header .group{
     display:flex;
     justify-content: space-between;
@@ -154,6 +160,10 @@ footer p {
   #blog .group img{
     height: 200px;
   }
-  
+  main img {
+    width: auto;
+    height: 215px;
+    padding: 10px;
+  }
 
 }
